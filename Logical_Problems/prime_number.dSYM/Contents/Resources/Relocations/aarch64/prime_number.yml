@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vijethsm/likhitha/C_BASICS/Logical_Problems/prime_number'
+relocations:     []
+...

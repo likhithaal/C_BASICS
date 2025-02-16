@@ -7,7 +7,7 @@ int main(){
 
     for(int i=0;i < 100 ; i++){
         if(isPrime(i))
-            printf(i);
+            printf("%d\n",i);
     }
 
 return 0;
