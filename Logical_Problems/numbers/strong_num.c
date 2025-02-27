@@ -5,7 +5,7 @@ int is_strong(int m);
 
 int main()
 {
-    //strong num: sum of factorial of digit is same as the number
+    //strong num: sum of factorial of digit is same as the number [eg: 145]
     int num=0,res=0;
     printf("Enter the number: ");
     scanf("%d",&num);
