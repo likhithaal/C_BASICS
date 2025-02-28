@@ -26,9 +26,6 @@ int main()
     printf("Enter the position: ");
     scanf("%d",&position);
     
-    printf("Array before insertion: ");
-    printArr(arr,size);
-    
     if(insert_element(arr,size,position,val)){
         printf("\nArray after insertion: ");
         size = size+1;
@@ -46,7 +43,7 @@ int insert_element(int *array,int n,int pos,int data)
     if(pos < 0 || pos > n)
         return 0;
         
-    //shift the elements
+    //shift the elements to right
     for(int i=n ;i>pos;i--){
         array[i] = array[i-1];
     }
