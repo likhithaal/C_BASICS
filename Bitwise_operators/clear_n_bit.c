@@ -9,7 +9,7 @@ int main(){
     printf("Enter the position to clear \n");
     scanf("%d",&pos);
     num = clear_bit(num,pos);
-    printf("Number after toggle: %d\n",num);
+    printf("Number after clearing %d bit: %d\n",pos,num);
     return 0;
 }
 
