@@ -14,5 +14,5 @@ int main(){
 }
 
 int toggle_bit(int n,int p){
-    return n ^ (1 << p);    //XOR (^) operator to toggle the bit
+    return n ^ (1 << p);      //XOR (^) operator to toggle the bit
 }
